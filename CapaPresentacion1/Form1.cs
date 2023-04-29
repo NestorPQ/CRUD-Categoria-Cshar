@@ -32,7 +32,13 @@ namespace CapaPresentacion1
             else
             {
                 frmCategoria frm=new frmCategoria();
-                
+                frm.IdTrabajador = Datos.Rows[0][1].ToString();
+                frm.Apellidos = Datos.Rows[0][1].ToString();
+                frm.Nombres = Datos.Rows[0][2].ToString();
+                frm.Acceso = Datos.Rows[0][3].ToString();
+                frm.Show();
+                this.Hide();
+
             }
         }
 

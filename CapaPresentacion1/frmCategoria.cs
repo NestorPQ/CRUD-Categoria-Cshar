@@ -13,7 +13,13 @@ using CapaNegocio;
 namespace CapaPresentacion1
 {
     public partial class frmCategoria : Form
+
     {
+        public string IdTrabajador = "";
+        public string Apellidos = "";
+        public string Nombres = "";
+        public string Acceso = "";
+
         // Variable que indica si vamos a insertar una categoria
         private bool IsNuevo = false;
         // Variable que indica si vamos a modificar una categoria
