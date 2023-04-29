@@ -12,3 +12,5 @@ C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPrese
 C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.dll
 C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.pdb
 C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.frmPresentacion.resources
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.pictureBox2.resources
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.Properties.Resources.resources

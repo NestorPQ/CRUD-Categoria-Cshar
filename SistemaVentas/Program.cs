@@ -16,8 +16,9 @@ namespace SistemaVentas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CapaPresentacion1.frmCategoria());
-  
+            // Application.Run(new CapaPresentacion1.frmCategoria());
+            Application.Run(new CapaPresentacion1.pictureBox2());
+
         }
     }
 }
