@@ -21,6 +21,8 @@ namespace CapaPresentacion1
         public frmCategoria()
         {
             InitializeComponent();
+            this.ttMensaje.SetToolTip(this.txtNom, "Ingresar el nombre de la categoría");
+            this.ttMensaje.SetToolTip(this.txtDes, "Ingresar descripción de la categoria");
         }
 
         private void frmCategoria_Load(object sender, EventArgs e)
@@ -95,6 +97,7 @@ namespace CapaPresentacion1
             if(this.txtNom.Text == string.Empty)
             {
                 MensajeError ("Falta ingresar datos");
+                error.SetError(txtNom,"Ingresar nombre");
             }
             else
             {
