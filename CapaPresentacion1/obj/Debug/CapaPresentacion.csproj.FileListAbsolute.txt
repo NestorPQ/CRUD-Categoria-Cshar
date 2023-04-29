@@ -1,0 +1,14 @@
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\bin\Debug\CapaPresentacion1.dll
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\bin\Debug\CapaPresentacion1.pdb
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\bin\Debug\CapaNegocio.dll
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\bin\Debug\CapaDatos.dll
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\bin\Debug\CapaNegocio.pdb
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\bin\Debug\CapaDatos.pdb
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.frmCategoria.resources
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.dll
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.pdb
+C:\Users\SENATI\source\repos\SistemaVentas\CapaPresentacion1\obj\Debug\CapaPresentacion1.frmPresentacion.resources
