@@ -56,6 +56,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
@@ -75,6 +76,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.chkEliminar);
             this.tabPage1.Controls.Add(this.textBuscar);
             this.tabPage1.Controls.Add(this.txtEliminar);
@@ -353,6 +355,16 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Producto";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(516, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Reporte productos";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -405,5 +417,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtCat;
         private System.Windows.Forms.Button btnCargar;
+        private System.Windows.Forms.Button button1;
     }
 }

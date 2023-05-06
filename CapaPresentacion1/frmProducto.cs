@@ -114,6 +114,11 @@ namespace CapaPresentacion1
             BuscarNombre();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formRegistroProd vista = new formRegistroProd();
+            vista.ShowDialog();
+        }
     }
 
 }

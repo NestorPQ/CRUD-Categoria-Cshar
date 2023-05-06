@@ -18,11 +18,14 @@ namespace SistemaVentas
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(frmProducto.GetInstancia());
+            //Application.Run(new CapaPresentacion1.frmReporte());
+
 
             //Application.Run(new CapaPresentacion1.frmCategoria());
             //Application.Run(new CapaPresentacion1.frmVistaCategoria());
             //Application.Run(new CapaPresentacion1.pictureBox2());
             //Application.Run(new CapaPresentacion1.frmProducto());
+            //Application.Run(new CapaPresentacion1.formRegistroProd());
 
 
         }

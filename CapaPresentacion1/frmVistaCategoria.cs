@@ -63,16 +63,18 @@ namespace CapaPresentacion1
 
         private void BuscarNombre()
         {
-            this.dataListado.DataSource = NCategoria.BuscarNombre(this.txtBuscar.Text);
-            this.OcultarColumnas();
-
-        }
-        private void BuscarNombre()
-        {
             this.dataListado.DataSource = NCategoria.BuscarNombre(this.textBuscar.Text);
             this.OcultarColumnas();
 
         }
+
+        //private void buscarnombre()
+        //{
+        //    this.dataListado.DataSource = NCategoria.BuscarNombre(this.txtBuscar.Text);
+        //    this.OcultarColumnas();
+
+        //}
+
 
         private void textBuscar_TextChanged(object sender, EventArgs e)
         {
@@ -82,6 +84,12 @@ namespace CapaPresentacion1
         private void txtBuscar_Click(object sender, EventArgs e)
         {
             BuscarNombre();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmReporte vista = new frmReporte();
+            vista.ShowDialog();
         }
     }
 }
