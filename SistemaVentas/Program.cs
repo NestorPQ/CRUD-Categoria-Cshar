@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaPresentacion1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,8 +17,13 @@ namespace SistemaVentas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new CapaPresentacion1.frmCategoria());
-            Application.Run(new CapaPresentacion1.pictureBox2());
+            Application.Run(frmProducto.GetInstancia());
+
+            //Application.Run(new CapaPresentacion1.frmCategoria());
+            //Application.Run(new CapaPresentacion1.frmVistaCategoria());
+            //Application.Run(new CapaPresentacion1.pictureBox2());
+            //Application.Run(new CapaPresentacion1.frmProducto());
+
 
         }
     }

@@ -234,5 +234,10 @@ namespace CapaPresentacion1
                 MessageBox.Show(ex.Message + ex.StackTrace);
             }
         }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
+        {
+
+        }
     }
 }
